@@ -11,59 +11,103 @@
   <title>Header con Bootstrap</title>
 </head>
 
+
 <body>
-  <!--HEADER-->
-  <nav class="navbar navbar-expand-lg navbar-light header">
-    <img src="Imagenes/codoacodo.png" alt="Descripción de la imagen" class="img-fluid imgheader ml-5">
-    <h4 class="text-white"><b> Conf Bs As</b></h4>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto mr-4">
-        <li class="nav-item active">
-          <a class="nav-link text-white" href="#La-conferencia"><b>La Conferencia</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#Los-oradores"><b>Los oradores</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#Lugar-y-fecha"><b>El lugar y la fecha</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#Ser-orador"><b>Conviertete en orador</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-success" href="#comprartickets"><b>Comprar tickets</b></a>
-        </li>
-      </ul>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Imagenes/ada.jpeg" class="d-inline-block" alt="Logo del programa Codo a Codo.">
+        Conf Bs As
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviertete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="comprar" href="#">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-  </header>
-  <!--LA CONFERENCIA-->
 
-  <div id="La-conferencia" class="carousel slide ">
-    <div class="carousel-indicators">
-    </div>
-    <div class="carousel-inner" data-bs-ride="carousel">
-      <div class="carousel-item active">
-        <img src="Imagenes/ba1.jpg" class=" d-block img-fluid foto " alt="...">
-        <div class="carousel-caption d-md-block text-white cartelfoto  text-center text-md-right ">
-          <h5>Conf BS AS</h5>
-          <p><b>Bs As llega por primera vez a la Argentina. Un evento para compartir con
-              nuestra comunidad el conocimiento y experiencia de los expertos que
-              están creando el futuro de internet. Ven a conocer a miembros del
-              vento, a otros estudiantes de Codo a Codo y oradores del primer
-              nivel que tenemos para ti. Te esperamos!</b></p>
-          <a href="#Ser-orador"><button type="button" class="btn btn-outline-light"><b>Quiero ser
-                orador</b></button></a>
-         <a href="#comprartickets"> <button type="button" class="btn btn-success" ><b>Comprar tickets</b></button>
-        </div></a>
-
+  <header>
+    <div id="myCarousel" class="carousel slide" style="height: 100vh;" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/ba1.jpg" class="d-block w-100" alt="Slide 1">
+          <div class="carousel-caption ">
+            <div class="carousel-caption-content1">
+              <h5>Conf Bs As</h5>
+              <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el
+                conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a
+                miembros del eventos, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para
+                ti. Te esperamos!</p>
+              <div class="button-conteiner">
+                <button type="button" class="btn btn-outline-primary">Quiero ser orador</button>
+                <button type="button" class="btn btn-secondary">Comprar Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/ba2.jpg" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption">
+            <div class="carousel-caption-content1">
+              <h5>Conf Bs As</h5>
+              <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el
+                conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a
+                miembros del eventos, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para
+                ti. Te esperamos!</p>
+              <div class="button-conteiner">
+                <button type="button" class="btn btn-outline-primary">Quiero ser orador</button>
+                <button type="button" class="btn btn-secondary">Comprar Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/ba3.jpg" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption">
+            <div class="carousel-caption-content1 ">
+              <h5>Conf Bs As</h5>
+              <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el
+                conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a
+                miembros del eventos, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para
+                ti. Te esperamos!</p>
+              <div class="button-conteiner">
+                <button type="button" class="btn btn-outline-primary">Quiero ser orador</button>
+                <button type="button" class="btn btn-secondary">Comprar Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
     </div>
+  </header>
 
     <!--LOS ORADORES-->
     <div id="Los-oradores" class=""></div>
