@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  <title>Header con Bootstrap</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <nav class="navbar navbar-expand-lg navbar-light header">
+    <img src="Imagenes/codoacodo.png" alt="Descripción de la imagen" class="img-fluid imgheader ml-5">
+    <h4 class="text-white"><b> Conf Bs As</b></h4>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto mr-4">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#La-conferencia"><b>La Conferencia</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#Los-oradores"><b>Los oradores</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#Lugar-y-fecha"><b>El lugar y la fecha</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#Ser-orador"><b>Conviertete en orador</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="#comprartickets"><b>Comprar tickets</b></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  <!--LA CONFERENCIA-->
+
+  <div id="La-conferencia" class="carousel slide ">
+    <div class="carousel-indicators">
+    </div>
+    <div class="carousel-inner" data-bs-ride="carousel">
+      <div class="carousel-item active">
+        <img src="Imagenes/ba1.jpg" class=" d-block img-fluid foto " alt="...">
+        <div class="carousel-caption d-md-block text-white cartelfoto  text-center text-md-right ">
+          <h5>Conf BS AS</h5>
+          <p><b>Bs As llega por primera vez a la Argentina. Un evento para compartir con
+              nuestra comunidad el conocimiento y experiencia de los expertos que
+              están creando el futuro de internet. Ven a conocer a miembros del
+              vento, a otros estudiantes de Codo a Codo y oradores del primer
+              nivel que tenemos para ti. Te esperamos!</b></p>
+          <a href="#Ser-orador"><button type="button" class="btn btn-outline-light"><b>Quiero ser
+                orador</b></button></a>
+         <a href="#comprartickets"> <button type="button" class="btn btn-success" ><b>Comprar tickets</b></button>
+        </div></a>
+
+      </div>
+
+    </div>
+
+    <!--LOS ORADORES-->
+    <div id="Los-oradores" class=""></div>
+    <div class="row justify-content-center align-items-center margensuperiororadores ">
+      <div class="col-12 text-center ">
+        <p>CONOCE A LOS</p>
+        <h3>ORADORES</h3>
+      </div>
+    </div>
+    <section class="container-fluid row cuadros123">
+      <div
+        class="col-sm-4 col-12 d-flex justify-content-center d-sm-flex justify-content-sm-end align-content-sm-center my-2 ">
+        <div class="card " style="width: 18rem;">
+          <img src="Imagenes/steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="badge bg-warning text-wrap" style="width: 3rem;">
+              JavaScript
+            </div>
+            <div class="badge bg-primary text-wrap text-white" style="width: 3rem;">
+              React
+            </div>
+            <p class="orador"><b>Steve Jobs</b></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sequi deleniti
+              vero odit fugit laudantium, aperiam magnam neque maiores consequuntur impedit dolorum mollitia non quas,
+              expedita sed. Quasi, ipsa labore</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-4 col-12  d-flex justify-content-center d-sm-flex justify-content-sm-center align-content-sm-center my-2">
+        <div class="card " style="width: 18rem;">
+          <img src="Imagenes/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="badge bg-warning text-wrap " style="width: 3rem; padding: 3px;">
+              JavaScript
+            </div>
+            <div class="badge bg-primary text-wrap text-white" style="width: 3rem;">
+              React
+            </div>
+
+            <p class="orador"><b>Bill Gates</b></p>
+            <p class="card-text text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum magnam unde
+              labore in quod fuga ratione vel magni amet explicabo perferendis, et ab dolor cumque esse, impedit libero
+              ducimus ea</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-4 col-12  d-flex justify-content-center d-sm-flex justify-content-sm-start align-content-sm-center my-2">
+        <div class="card" style="width: 18rem;">
+          <img src="Imagenes/ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="badge bg-secondary text-wrap text-white" style="width: 3rem;">
+              Negocios </div>
+            <div class="badge bg-danger  text-white" style="width: 3rem ;">
+              Startups
+            </div>
+
+            <p class="orador"><b>Ada Lovelace</b></p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vero nesciunt
+              perspiciatis soluta in odio unde temporibus voluptas? Impedit, delectus. Reiciendis amet consectetur
+              perferendis ipsam deserunt quia sapiente repellat officia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container ">
+    </section>
+
+
+    <!--LUGAR Y FECHA-->
+    <div id="Lugar-y-fecha">
+      <div class="container-fluid row my-5 ">
+        <div class="col-sm-6 col-12 foto1 my-5 "><img src="Imagenes/honolulu.jpg" class="img-fluid imagenplaya" alt="">
+        </div>
+        <div class="col-sm-6 col-12 py-3  my-5  bg-secondary text-white foto2">
+          <h3>Bs As - Octubre</h3>
+          <p> Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+            Honolulu es la más sureña de entre las principales ciudades estadonidense. Aunque el nombre de Honoluou
+            se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han
+            formado una ciudad-condado consolidad que cubre toda la ciudad (aproximadamente 600km2 de superficie) </p>
+          <button type="button" class="btn btn-outline-light">Conoce más</button>
+        </div>
+      </div>
+    </div>
+    <!--CONVIERTETE EN ORADOR-->
+    <div id="Ser-orador" class="row justify-content-center align-items-center">
+      <div class="col-12 text-center my-sm-4 textoorador">
+        <p class="serorador mt-5">CONVIERTETE EN</p>
+        <h3>ORADORES</h3>
+        <p class="text-decoration-style:dotted">Anotato como orador para dar una <span class="subrayado-punteado">charla
+            ignite</span>. Cuéntanos de que quieres hablar!</p>
+      </div>
+
+    </div>
+    <div class="row container-fluid ">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-3  formulario">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Last name">
+      </div>
+      <div class="col-sm-3  formulario">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="First name">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="container-fluid row">
+      <div class="col-3"></div>
+      <div class=" container-fluid col-sm-6">
+        <div class="mb-3 my-3">
+          <textarea class="form-control" rows="4" id="textarea" placeholder="Sobre qué quieres hablar?"
+            style="font-size: 20px;"></textarea>
+          <p class="textoarea"><b>Recuerda incluir un título para tu charla</b></p>
+          <button class="btn btnenviar btn-block text-white"><b>Enviar</b></button>
+
+
+        </div>
+      </div>
+      <div class="col-3"></div>
+
+    </div>
+  </div>
+
+  <!--COMPRAR TICKETS-->
+  <div id="comprartickets" >
+    <div class="row " >
+
+      <div class="col-3">
+      </div>
+      <div class="col-sm col cajas1 ">
+        <div class="row container text-center ">
+          <div class="col border border-primary m-1 p-3 cajadetalle1">
+            <h5>Estudiante</h5>
+            <p>Tiene un descuento</p>
+            <p class="font-weight-bold">80%</p>
+            <p class="presentardocumentacion">* presentar documentación</p>
+          </div>
+          <div class="col-sm col border border-secondary m-1 p-3 cajadetalle1">
+            <h5>Trainee</h5>
+            <p>Tiene un descuento</p>
+            <p class="font-weight-bold">50%</p>
+            <p class="presentardocumentacion">* presentar documentación</p>
+          </div>
+          <div class="col-sm col border border-warning  m-1 p-3 cajadetalle1">
+            <h5>Junior</h5>
+            <p>Tiene un descuento</p>
+            <p class="font-weight-bold">15%</p>
+            <p class="presentardocumentacion">* presentar documentación</p>
+          </div>
+        </div>
+        <p class="text-center">VENTA</p>
+        <h2 class="text-center">VALOR DE TICKET $200</h2>
+
+      </div>
+      <div class="col-3">
+
+      </div>
+
+    </div>
+    <form id="mi-formulario">
+      <div class="row container-fluid ">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3  formulario">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Last name" id="nombre">
+        </div>
+        <div class="col-sm-3  formulario">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="First name" id="apellido">
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+      <div class="container-fluid row">
+        <div class="col-3"></div>
+        <div class=" container-fluid col-sm-6">
+          <div class="mb-3 my-3">
+            <input type="email" class="form-control" placeholder="Correo" aria-label="First name" id="email">
+          </div>
+        </div>
+        <div class="col-3"></div>
+
+      </div>
+      <div class="row container-fluid ">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3 ">
+          <p class="m-1">Cantidad</p>
+          <input type="number" class="form-control" placeholder="Cantidad" id="cantidad" value="0" aria-label="Last name">
+        </div>
+        <div class="col-sm-3 ">
+          <p class="m-1">Categoría</p>
+          <select id="categoria" class="form-select">
+            <option selected>Elegir una opción</option>
+            <option value="estudiante">Estudiante</option>
+            <option value="trainee">Trainee</option>
+            <option value="junior">Junior</option>
+          </select>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid row">
+    <div class="col-3"></div>
+    <div class=" container-fluid col-sm-6">
+
+      <div class="border p-2 mb-2 rounded my-3 pl-4" style="background-color: #ECF4FC"><p id="resultado">Total a pagar: $ <span id="precio-total">0</span></p></div>
+    </div>
+    <div class="col-3"></div>
+    <div class="row container-fluid mx-2 mb-3">
+      <div class="col-sm-3">
+      </div>
+      <div class="d-grid gap-2 col-3 ">
+        <button class="btn btnenviar1 btn-block text-white" id="boton-borrar"><b>Borrar</b></button>
+
+
+      </div>
+      <div class="d-grid gap-2 col-3 ">
+        <button class="btn btnenviar1 btn-block text-white" id="calcular-descuento"><b>Resumen</b></button>
+
+      </div>
+      <div class="col-sm-3">
+       
+      </div>
+    </div>
+
+  </div>
+</form>
+  <!--FOOTER-->
+  <footer>
+
+    </section>
+
+    <section class="container-fluid row  footercolor text-white py-3 ">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10 text-center d-sm-flex justify-content-sm-around align-items-sm-center palabrasheader">
+        <div><b>Preguntas<br>frecuentes</b></div>
+        <div><b>Prensa</b></div>
+        <div><b>Conferencia</b></div>
+        <div><b>Términos y <br> condiciones</b></div>
+        <div><b>Privacidad</b></div>
+        <div><b>Estudiantes</b></div>
+      </div>
+      <div class="col-sm-1"></div>
+
+    </section>
+  </footer>
+  <script src="JS/borrar.js"></script>
+  <script src="JS/resumen.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
