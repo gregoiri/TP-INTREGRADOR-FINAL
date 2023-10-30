@@ -4,84 +4,58 @@
 }
 
 /*HEADER*/
-.navbar-brand img {
-    width: 5rem;
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+.imgheader{
+    width: 90px;
+    height: 60px;
 }
 
-#comprar {
-    color: #29a746;
+.header {
+    background-color: #383838;
 }
-
-
 
 /*LA CONFERENCIA*/
 
-.navbar-brand img {
-    width: 5rem;
+.foto {
+    width: 1400px;
+  height: 600px;
+  filter: brightness(55%);
 }
 
-#comprar {
-    color: #29a746;
+.cartelfoto {
+    width: 550px;
+    height: 300px;
+  margin-left: 350px;
+  margin-bottom: 50px;
 }
 
-.carousel-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;}
+.invisible {
+    visibility: hidden;
+}
+/*LOS ORADORES*/
 
-.carousel, .item {
-    height:100vh !important;
-    }
-    .carousel-inner {
-    height:100vh !important;
-    }
-
-.carousel {
-
-    background-color: black;
+.margensuperiororadores {
+    margin-top: 90px;
+}
+.card-text {
+    font-size: 12px;
 }
 
-.carousel-caption {
-    padding-bottom: 0 !important;
+.badge {
+    display: inline;
+    font-size: 10px;
+    padding: 3px 7px; 
+    margin: 2px 
 }
 
-.carousel-caption-content1 p {
-    font-size: .8rem;
+.orador {
+    font-size: 20px ;
 }
-
-.carousel-item img {
-
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-
-.btn-outline-primary {
-    margin: .5rem !important;
-    color: white !important;
-    border-color: white !important;
-}
-
-.btn-secondary {
-    margin: .5rem !important;
-    background-color: #29a746 !important;
-    border-color: #29a746 !important;
-}
-
-.carousel-caption {
-    display: flex !important;
-    justify-content: flex-end !important;
-    align-items: center !important;
-    top: 2%;
-    height: 100%;   
-    max-width: 1280px;
-}
-
-.carousel-caption-content1 {
-    max-width: 500px;
-    text-align: right;
-}
-
-
 
 /*LUGAR Y FECHA*/
 
@@ -103,11 +77,31 @@
     color: #888888;
   }
 
+  /*COMPRAR TICKETS*/
+
+  .btnenviar1{
+    background-color: rgb(90, 207, 90); 
+  }
+.cajadetalle1{
+  transition: transform 0.3s;
+}
+  .cajadetalle1:hover {
+    transform: scale(1.1);
+}
+.cajas1{
+  margin-top:80px;
+}
   /*FOOTER*/
 
   .footercolor {
     background-color: rgb(8, 61, 97);
   }
+
+  .presentardocumentacion {
+    font-size: 13px;
+    color: #888888;
+  }
+
 
   @media (max-width: 992px) {
     .serorador {
@@ -172,14 +166,4 @@ margin: 0px 5px;
 }
   
 }
-
-.textoorador {
-    font-size: 15px;
-}
-
-.formulario {
-    margin: 3px;
-}
-
-
 
